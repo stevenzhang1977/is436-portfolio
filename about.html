@@ -41,13 +41,16 @@
     <div class="container">
       <div class="row align-items-center g-5">
 
-        <!-- Profile Photo Placeholder -->
+        <!-- Profile Photo -->
         <div class="col-md-4 text-center">
-          <div class="bg-secondary rounded-circle d-inline-flex align-items-center justify-content-center" style="width:180px; height:180px;">
-            <i class="bi bi-person-fill text-white" style="font-size:5rem;"></i>
-          </div>
+          <img src="images/pfp.jpg" alt="Steven Zhang Profile Photo" class="rounded-circle" style="width:180px; height:180px; object-fit:cover;">
           <h4 class="mt-3 fw-bold">Steven Zhang</h4>
           <p class="text-muted">IS436 – System Analysis Student</p>
+
+          <a href="StevenZhang_Resume.pdf" class="btn btn-outline-dark" download>
+            <i class="bi bi-download me-2"></i>Download Resume
+          </a>
+
         </div>
 
         <!-- Bio -->
@@ -74,6 +77,91 @@
     </div>
   </section>
 
+  <!-- Education Timeline -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Education Timeline</h2>
+      <ul class="list-group">
+
+        <li class="list-group-item">
+          <h5 class="mb-1">University of Maryland, Baltimore County</h5>
+          <p class="mb-1 text-muted">B.S. in Information Systems</p>
+          <small>2022 – Present</small>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Spring 2026</h5>
+          <p class="mb-1 text-muted">IS 436 - Structured Systems Analysis and Design</p>
+          <p class="mb-1 text-muted">IS 451M - LAN Management Using Microsoft</p>
+          <p class="mb-1 text-muted">IS 496 - Business Analytics</p>
+          <p class="mb-1 text-muted">MGMT 425 - Marketing </p>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Fall 2025</h5>
+          <p class="mb-1 text-muted">IS 296 - Foundations of Data Science</p>
+          <p class="mb-1 text-muted">IS 303 - Fundamentals of HCI</p>
+          <p class="mb-1 text-muted">MGMT 385 - Business Ethics and Society</p>
+          <p class="mb-1 text-muted">MGMT 410 - Operations and Supply Chain Management </p>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Spring 2025</h5>
+          <p class="mb-1 text-muted">IS 420 - Database Application Development</p>
+          <p class="mb-1 text-muted">IS 425 - Decision Support Systems</p>
+          <p class="mb-1 text-muted">IS 448 - Markup and Scripting Languages</p>
+          <p class="mb-1 text-muted">IS 451 - Network Design and Manegement </p>
+          <p class="mb-1 text-muted">MGMT 360 - Business Law </p>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Fall 2024</h5>
+          <p class="mb-1 text-muted">CHIN 201 - Intermediate Chinese 1 </p>
+          <p class="mb-1 text-muted">ENGL 393 - Technical Communication</p>
+          <p class="mb-1 text-muted">IS 410 - Introduction to Database Design</p>
+          <p class="mb-1 text-muted">IS 450 - Data Communications and Networks</p>
+          <p class="mb-1 text-muted">PHIL 100 - Introduction to Philosophy</p>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Spring 2024</h5>
+          <p class="mb-1 text-muted">CHIN 102 - Elementary Chinese 2</p>
+          <p class="mb-1 text-muted">ECON 122 - Principles of Accounting 2</p>
+          <p class="mb-1 text-muted">IS 310 - Software and Hardware Concepts</p>
+          <p class="mb-1 text-muted">STAT 351 - Applied Statistics for Business and Economics</p>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Fall 2023</h5>
+          <p class="mb-1 text-muted">CHIN 101 - Elementary Chinese 1</p>
+          <p class="mb-1 text-muted">ECON 121 - Principles of Accounting 1</p>
+          <p class="mb-1 text-muted">IS 247 - Computer Programming 2</p>
+          <p class="mb-1 text-muted">IS 300 - Management Information Systems</p>
+          <p class="mb-1 text-muted">SCI 100 - Water; An Interdisciplinary Study (MS)</p>
+        </li>
+
+        <li class="list-group-item">
+          <h5 class="mb-1">Spring 2023</h5>
+          <p class="mb-1 text-muted">ECON 102 - Principles of Macroeconomics </p>
+          <p class="mb-1 text-muted">GES 110 - The Changing Earth: Climate, Ecosystems, Water, and Landscapes</p>
+          <p class="mb-1 text-muted">IS 147 - Computer Programming 1</p>
+          <p class="mb-1 text-muted">MCS 222 - Introduction to Media & Communication Studies</p>
+          <p class="mb-1 text-muted">MGMT 210 - The Practice of Management</p>
+        </li>
+        
+        <li class="list-group-item">
+          <h5 class="mb-1">Fall 2022</h5>
+          <p class="mb-1 text-muted">COMP 101 - Computational Thinking and Design</p>
+          <p class="mb-1 text-muted">ECON 101 - Principles of Microeconomics</p>
+          <p class="mb-1 text-muted">ENGL 100 - Composition </p>
+          <p class="mb-1 text-muted">FYS 104 - First Year Seminar (C) </p>
+          <p class="mb-1 text-muted">MATH 215 - Applied Finite Mathematics</p>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
   <!-- Skills Section -->
   <section class="bg-light py-5">
     <div class="container">
@@ -82,28 +170,14 @@
 
         <!-- Individual skills -->
         <div class="col-md-6">
-          <p class="mb-1 fw-semibold">HTML & CSS</p>
-          <div class="progress" style="height:20px;">
-            <div class="progress-bar bg-primary" style="width:60%">60%</div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
           <p class="mb-1 fw-semibold">SQL Database Design</p>
           <div class="progress" style="height:20px;">
-            <div class="progress-bar bg-success" style="width:95%">95%</div>
+            <div class="progress-bar bg-primary" style="width:95%">95%</div>
           </div>
         </div>
 
         <div class="col-md-6">
-          <p class="mb-1 fw-semibold">Bootstrap</p>
-          <div class="progress" style="height:20px;">
-            <div class="progress-bar bg-success" style="width:70%">70%</div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <p class="mb-1 fw-semibold">System Analysis</p>
+          <p class="mb-1 fw-semibold">Use Case Documentation</p>
           <div class="progress" style="height:20px;">
             <div class="progress-bar bg-success" style="width:90%">90%</div>
           </div>
@@ -116,29 +190,46 @@
           </div>
         </div>
 
+        <div class="col-md-6">
+          <p class="mb-1 fw-semibold">System Analysis</p>
+          <div class="progress" style="height:20px;">
+            <div class="progress-bar bg-success" style="width:80%">80%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <p class="mb-1 fw-semibold">Bootstrap</p>
+          <div class="progress" style="height:20px;">
+            <div class="progress-bar bg-warning" style="width:70%">70%</div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <p class="mb-1 fw-semibold">HTML & CSS</p>
+          <div class="progress" style="height:20px;">
+            <div class="progress-bar bg-warning" style="width:60%">60%</div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Challenge Box -->
-  <section class="py-4">
-    <div class="container">
-      <div class="alert alert-warning" role="alert">
-        <h5 class="alert-heading"><i class="bi bi-lightbulb-fill me-2"></i>Student Challenge</h5>
-        <p class="mb-1">Can you make this page better? Here are ideas to try:</p>
-        <ul class="mb-0">
-          <li>Replace the icon placeholder with a real profile photo using <code>&lt;img&gt;</code> and Bootstrap's <code>rounded-circle</code> class.</li>
-          <li>Add a <strong>timeline</strong> using Bootstrap's list-group to show your education history.</li>
-          <li>Add a <strong>Download Resume</strong> button using <code>btn btn-outline-dark</code>.</li>
-          <li>Add a <strong>Hobbies</strong> section using Bootstrap badges (<code>badge bg-secondary</code>).</li>
-        </ul>
-      </div>
+  <!-- Hobbies Section -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Hobbies</h2>
+      <span class="badge bg-secondary m-1 p-2">Video Editing</span>
+      <span class="badge bg-secondary m-1 p-2">Pickleball</span>
+      <span class="badge bg-secondary m-1 p-2">Music</span>
+      <span class="badge bg-secondary m-1 p-2">Cooking</span>
+      <span class="badge bg-secondary m-1 p-2">Exploring Places to Eat</span>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    <p class="mb-0">&copy; 2026 MyPortfolio. Built with Bootstrap 5.</p>
+    <p class="mb-0">&copy; 2026 Steven's Portfolio. Built with Bootstrap 5.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
